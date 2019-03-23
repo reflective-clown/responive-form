@@ -1,0 +1,165 @@
+/*****************************
+            RESET
+*****************************/
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-family: "Noto Sans", Avenir, Helvetica, Verdana, sans-serif;
+}
+
+/*****************************
+        BASIC STYLING
+*****************************/
+
+body {
+    background-color: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+
+/*****************************
+        LAYOUT STYLING
+*****************************/
+
+.container {
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90vw;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.header {
+    color: #fff;
+    background-color: #698db4;
+    padding: 1rem;
+    letter-spacing: .2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.form-container {
+    padding: 2rem;
+}
+
+form {
+    display: grid;
+    grid-gap: 1rem;
+
+    /*Reduce row gap to balance with outer padding */
+    grid-row-gap: .6rem;
+}
+
+/*****************************
+       CONTROLS STYLING
+*****************************/
+
+input,
+textarea {
+    display: block;
+    min-width: 100%;
+    max-width: 100%;
+    line-height: 1.618;
+    font-size: .8rem;
+    padding: .2rem;
+    border: 1px solid #cccccc;
+    /*border: none;*/
+    resize: none;
+}
+
+label {
+    font-weight: bold;
+    font-size: .8rem;
+    margin-bottom: .2rem;
+}
+
+input {
+    line-height: 1.618;
+}
+
+textarea {
+    max-height: 25rem;
+    min-height: 9rem;
+}
+
+input:focus,
+textarea:focus {
+    outline: none;
+}
+
+#check {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+input[type=checkbox] {
+    height: 1rem;
+    width: 1rem;
+    margin-right: 5px;
+    min-width: auto;
+}
+
+
+/*input:required:valid,*/
+/*textarea:required:focus:valid {*/
+    /*border-right: 10px solid rgba(0, 128, 0, 0.29);*/
+/*}*/
+
+/*input:required:invalid,*/
+/*textarea:required:invalid {*/
+    /*border-right: 10px solid rgba(255, 0, 0, 0.22);*/
+/*}*/
+
+/* Larger touch point for checkbox */
+
+#check>label {
+    height: 2.5rem;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+}
+
+
+/*****************************
+        BUTTON STYLING
+*****************************/
+
+.button {
+    color: #fff;
+    background-color: #3664bb;
+    height: 2.8rem;
+    font-size: .9rem;
+    border-radius: 3px;
+}
+
+.cancel {
+    background-color: #fff;
+    border: 1px solid #3664bb;
+    color: #3664bb;
+}
+
+.button {
+    outline: none;
+}
+
+.button:active {
+    background-color: #314c99;
+}
+
+.cancel:active {
+    background-color: #e3e3e3;
+}

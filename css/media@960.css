@@ -1,0 +1,42 @@
+.container {
+    grid-template-columns: 1fr 2fr;
+}
+
+input,
+textarea {
+    font-size: .9rem;
+    padding: .3rem;
+    resize: both;
+}
+
+label {
+    font-size: .9rem;
+}
+
+form {
+    grid-template-columns: 1fr;
+}
+
+#msg,
+#submit,
+#check,
+#cancel{
+    grid-column: span 1;
+}
+
+.checkmark {
+    padding: .3rem;
+    font-size: 1.3rem;
+}
+
+.header {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border-top-right-radius: 0;
+}
+
+.header>h1 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    text-align: center;
+}

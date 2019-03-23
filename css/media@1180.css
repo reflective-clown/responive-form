@@ -1,0 +1,39 @@
+.container {
+    max-width: 1200px;
+}
+
+form {
+    grid-template-columns: 1fr 1fr;
+    border-radius: 0;
+}
+
+input,
+textarea {
+    font-size: 1rem;
+    padding: .4rem;
+}
+
+label {
+    font-size: 1rem;
+}
+
+textarea {
+    min-height: 18rem;
+}
+
+#msg,
+#check {
+    grid-column: span 2;
+}
+
+#submit,
+#cancel{
+    grid-column: span 1;
+}
+
+.header>h1 {
+    font-size: 2.5rem;
+    font-weight: 200;
+    text-align: center;
+    color: #e8e8e8;
+}

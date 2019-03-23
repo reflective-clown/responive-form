@@ -1,0 +1,8 @@
+#submit,
+#cancel {
+    grid-column: span 1;
+}
+
+textarea {
+    min-height: 13rem;
+}
