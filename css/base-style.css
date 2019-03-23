@@ -151,6 +151,7 @@ input[type=checkbox] {
     height: 2.8rem;
     font-size: .9rem;
     border-radius: 3px;
+    width: 100%;
 }
 
 .cancel {
