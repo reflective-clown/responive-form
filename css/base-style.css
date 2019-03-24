@@ -50,7 +50,7 @@ body {
 }
 
 .form-container {
-    height: 85vh;
+    height: 80vh;
     margin: 1.5rem;
 }
 
@@ -89,7 +89,7 @@ textarea {
 
 label {
     font-weight: bold;
-    font-size: .8rem;
+    /*font-size: .8rem;*/
     margin-bottom: .2rem;
 }
 
