@@ -1,12 +1,11 @@
 .container {
-    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);
+    /*box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);*/
     /*display: grid;*/
     /*grid-template-columns: 1fr;*/
     width: 90vw;
-    height: 90vh;
     /*width: 100vw;*/
     /*background-color: #fff;*/
-    border-radius: 5px;
+    /*border-radius: 5px;*/
 }
 
 
