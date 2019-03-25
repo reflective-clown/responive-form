@@ -24,42 +24,50 @@ body {
     height: 100vh;
 }
 
-
 /*****************************
         LAYOUT STYLING
 *****************************/
 
 .container {
-    /*box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.2);*/
     display: grid;
     grid-template-columns: 1fr;
-    width: 90vw;
+    width: 100vw;
     background-color: #fff;
-    border-radius: 5px;
 }
 
 .header {
-    color: #fff;
     background-color: #698db4;
-    padding: 1rem;
-    letter-spacing: .2px;
     display: flex;
     justify-content: center;
     align-items: center;
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
+    /*height: 15vh;*/
+}
+
+.header>h1 {
+    margin: 1rem;
+    letter-spacing: .2px;
+    color: #fff;
 }
 
 .form-container {
-    padding: 2rem;
+    /*height: 80vh;*/
+    margin: 1.5rem;
 }
 
 form {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: space-around;*/
+    /*height: 90vh;*/
     display: grid;
     grid-gap: 1rem;
 
+    /*justify-items: stretch;*/
+    /*align-items: ;*/
+    /*justify-content: space-around;*/
+    /*align-items: center;*/
     /*Reduce row gap to balance with outer padding */
-    grid-row-gap: .6rem;
+    /*grid-row-gap: .6rem;*/
 }
 
 /*****************************
@@ -72,27 +80,17 @@ textarea {
     display: block;
     min-width: 100%;
     max-width: 100%;
-    line-height: 1.618;
-    font-size: .8rem;
-    padding: .2rem;
+    width: 100%;
+    padding: .3rem;
     border: 1px solid #cccccc;
     resize: none;
-}
-textarea,
-input[type="text"],
-input[type="button"],
-input[type="submit"] {
-    -webkit-appearance: none;
-    border-radius: 0;
-}
-label {
-    font-weight: bold;
-    font-size: .8rem;
-    margin-bottom: .2rem;
+    font-size: 1rem;
 }
 
-input {
-    line-height: 1.618;
+label {
+    font-weight: bold;
+    /*font-size: .8rem;*/
+    margin-bottom: .2rem;
 }
 
 textarea {
@@ -118,19 +116,6 @@ input[type=checkbox] {
     min-width: auto;
 }
 
-
-/*input:required:valid,*/
-/*textarea:required:focus:valid {*/
-    /*border-right: 10px solid rgba(0, 128, 0, 0.29);*/
-/*}*/
-
-/*input:required:invalid,*/
-/*textarea:required:invalid {*/
-    /*border-right: 10px solid rgba(255, 0, 0, 0.22);*/
-/*}*/
-
-/* Larger touch point for checkbox */
-
 #check>label {
     height: 2.5rem;
     display: flex;
@@ -138,7 +123,6 @@ input[type=checkbox] {
     align-items: center;
     margin: 0;
 }
-
 
 /*****************************
         BUTTON STYLING
