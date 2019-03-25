@@ -69,7 +69,7 @@ form {
 
 input,
 textarea {
-    -webkit-appearance: none;
+    /*-webkit-appearance: none;*/
     display: block;
     min-width: 100%;
     max-width: 100%;
